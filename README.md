@@ -13,10 +13,10 @@
 
 
 # Команда проекта
-Yaroslav - 3530904/90101
+Yaroslav Polyakov - 3530904/90101
 
-Anton - 3530904/90101
+Anton Kurtishev - 3530904/90101
 
-Arthur - 3530904/90101
+Arthur Nasonov - 3530904/90101
 
-Alexey - 3530904/90101
+Alexey Sidorov - 3530904/90101
