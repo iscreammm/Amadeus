@@ -14,7 +14,9 @@
 # Архитектура проекта
 
 С4
-![Диаграмма без названия](https://user-images.githubusercontent.com/91844183/149488300-c7b06484-95b5-4df9-9c89-da1cf9aa613c.png)
+
+![Диаграмма без названия](https://user-images.githubusercontent.com/91844183/149489024-14cf72b7-813d-4c86-a9cd-7b6494022dda.png)
+
 
 # Команда проекта
 Yaroslav Polyakov - 3530904/90101
