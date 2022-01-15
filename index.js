@@ -165,7 +165,7 @@ function getInfo() {
   return '--------------Help--------------\n' 
       + '1) /remind <note_name> in <note_time> description <note_description> - добавление записи в ежедневник;\n'
       + '    <note_name> - название записи в ежедневнике;\n'
-      + '    <note_time> - время события в формате <день>.<месяц(без 0)>_(_ - пробел)<час>:<минута>;\n'
+      + '    <note_time> - время события в формате <день>.<месяц>_(_ - пробел)<час>:<минута>;\n'
       + '    <note_description> - информация записи;\n'
       + '2) /getNotes - возможность просмотра ежедневника;\n'
       + '3) /setGroup <group_number> - установление группы студента;\n'
@@ -175,7 +175,7 @@ function getInfo() {
       + '5) /deleteGroupNote <note_id> - удаление записей из списка записей группы, который доступен всем участникам этой группы;\n'
       + '    <note_id> - номер существующей записи из списка записей группы(/getGroupNotes);\n'
       + '6) /getGroupNotes - возможность просмотра записей группы;\n'
-      + '7) /getSchedule - получение ссылки на расписание группы;\n'
+      + '7) /getSchedule - получение ссылки на расписание группы;'
 }
 
 function getUserGroup(tmp) {
@@ -194,6 +194,12 @@ bot.on('message', (msg) => {
 
     bot.sendMessage(userId, 'It\'s your first message, send you some commands for start!\n\n' + getInfo());
   }
+});
+
+bot.onText(/help/, function (msg) {
+  var userId = msg.from.id;
+
+  bot.sendMessage(userId, getInfo());
 });
 
 bot.onText(/setGroup (.+)/, function (msg, match) {
