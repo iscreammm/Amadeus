@@ -15,7 +15,7 @@
 
 С4
 
-![Диаграмма без названия](https://user-images.githubusercontent.com/91844183/149489024-14cf72b7-813d-4c86-a9cd-7b6494022dda.png)
+![Диаграмма без названия](https://user-images.githubusercontent.com/91844183/149617738-8082b4c3-9cfd-42cd-ba3c-ffb14cb9f201.png)
 
 Ссылка на dockerhub https://hub.docker.com/repository/docker/papirosa228/amadeusbot
 
